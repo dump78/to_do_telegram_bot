@@ -1,10 +1,9 @@
 import random
 import telebot
 import time
+from config import TOKEN
 
-
-token = ''
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot(TOKEN)
 tasks = dict()
 RANDOM_TASKS = []
 HELP = """
